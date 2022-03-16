@@ -1,1 +1,2 @@
-# Algorithm_Analysis
+# Algorithm Analysis
+Omega Up algorithms and exercises
