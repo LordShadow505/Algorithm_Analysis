@@ -27,13 +27,19 @@ int main()
 	}
 
 	
-	for (int i = 0; i <= lim -1; i++)
-	printf("%d ", NCactus[i]);
+	//for (int i = 0; i <= lim -1; i++)
+	//printf("%d ", NCactus[i]);
 
     int NPreguntas = 0;
 
     scanf("%d", &NPreguntas);
-
+    
+    for (int i = 0; i < NPreguntas; i++)
+    {
+        int Pregunta;
+        scanf("%d", &Pregunta);
+        printf("%d ", NCactus[Pregunta-1]);
+    }
     
 
     /*
